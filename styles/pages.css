@@ -1,0 +1,405 @@
+/ styles/pages.css /
+
+.landingPage {
+  @apply bg-gray-100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+  @apply relative;
+  height: 600px;
+}
+
+.heroText {
+  @apply absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.heroText h1 {
+  @apply text-4xl;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.heroText p {
+  @apply text-lg;
+  margin-bottom: 2rem;
+}
+
+.features {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.features h2 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.feature {
+  @apply flex items-center gap-4;
+  margin-bottom: 2rem;
+}
+
+.feature h3 {
+  @apply text-xl;
+  font-weight: bold;
+}
+
+.feature p {
+  @apply text-gray-600;
+}
+
+.callToAction {
+  @apply container;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.callToAction h2 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.callToAction p {
+  @apply text-gray-600;
+  margin-bottom: 2rem;
+}
+
+.plantDatabase {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.plantDatabase h1 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.plantList {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+}
+
+.plantCard {
+  @apply bg-white rounded-lg shadow-md p-4;
+}
+
+.plantImage {
+  @apply h-48 w-full object-cover rounded-lg mb-4;
+}
+
+.plantInfo {
+  @apply flex flex-col gap-2;
+}
+
+.plantInfo h3 {
+  @apply text-xl font-bold;
+}
+
+.projectManagement {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.projectManagement h1 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.projectList {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+}
+
+.projectCard {
+  @apply bg-white rounded-lg shadow-md p-4;
+}
+
+.projectInfo {
+  @apply flex flex-col gap-2;
+}
+
+.projectInfo h3 {
+  @apply text-xl font-bold;
+}
+
+.projectLocation {
+  @apply flex flex-col gap-2;
+}
+
+.projectLocation p {
+  @apply text-gray-600;
+}
+
+.projectDetails {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.projectDetails h2 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.projectDetails p {
+  @apply text-gray-600;
+  margin-bottom: 1rem;
+}
+
+.plantImage {
+  @apply h-48 w-full object-cover rounded-lg mb-4;
+}
+
+.forum {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.forum h1 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.forum-posts {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+}
+
+.forumPostCard {
+  @apply bg-white rounded-lg shadow-md p-4;
+}
+
+.forumPostCard h3 {
+  @apply text-xl font-bold;
+}
+
+.forumPostCard p {
+  @apply text-gray-600;
+}
+
+.forumPostDetails {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.forumPostDetails h2 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.forumPostDetails p {
+  @apply text-gray-600;
+  margin-bottom: 1rem;
+}
+
+.userList {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.userList h1 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.userCard {
+  @apply bg-white rounded-lg shadow-md p-4;
+}
+
+.userCard h3 {
+  @apply text-xl font-bold;
+}
+
+.userCard p {
+  @apply text-gray-600;
+}
+
+.userProfile {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.userProfile h2 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.userProfile p {
+  @apply text-gray-600;
+  margin-bottom: 1rem;
+}
+
+.profilePicture {
+  @apply rounded-full w-24 h-24 object-cover;
+}
+
+.userProjects {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+}
+
+.userForumPosts {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+}
+
+.resourceDirectory {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.resourceDirectory h1 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.resourceItem {
+  @apply bg-white rounded-lg shadow-md p-4;
+}
+
+.resourceItem h2 {
+  @apply text-xl font-bold;
+}
+
+.resourceItem p {
+  @apply text-gray-600;
+}
+
+.fundingOpportunities {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.fundingOpportunities h1 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.opportunityItem {
+  @apply bg-white rounded-lg shadow-md p-4;
+}
+
+.opportunityItem h2 {
+  @apply text-xl font-bold;
+}
+
+.opportunityItem p {
+  @apply text-gray-600;
+}
+
+.educationalContent {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.educationalContent h1 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.contentItem {
+  @apply bg-white rounded-lg shadow-md p-4;
+}
+
+.contentItem h2 {
+  @apply text-xl font-bold;
+}
+
+.contentItem p {
+  @apply text-gray-600;
+}
+
+.aboutUs {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.aboutUs h1 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.aboutUs p {
+  @apply text-gray-600;
+  margin-bottom: 1rem;
+}
+
+.contactUs {
+  @apply container;
+  padding: 4rem 0;
+}
+
+.contactUs h1 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.successMessage {
+  @apply text-green-500;
+}
+
+.errorMessage {
+  @apply text-red-500;
+}
+
+.errorPage {
+  @apply container;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.errorPage h1 {
+  @apply text-2xl;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.errorPage p {
+  @apply text-gray-600;
+  margin-bottom: 2rem;
+}
+
+/ Responsive Design /
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 400px;
+  }
+
+  .plantList,
+  .projectList,
+  .forum-posts,
+  .userProjects,
+  .userForumPosts {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    height: 300px;
+  }
+
+  .plantList,
+  .projectList,
+  .forum-posts,
+  .userProjects,
+  .userForumPosts {
+    grid-template-columns: 1fr;
+  }
+}
