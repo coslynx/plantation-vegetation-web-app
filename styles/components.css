@@ -1,0 +1,129 @@
+/ styles/components.css /
+
+.plantCard {
+  @apply bg-white rounded-lg shadow-md p-4;
+  @apply flex flex-col gap-2;
+  @apply transition duration-300 ease-in-out hover:shadow-lg;
+}
+
+.plantImage {
+  @apply h-48 w-full object-cover rounded-lg mb-4;
+}
+
+.plantInfo {
+  @apply flex flex-col gap-2;
+}
+
+.plantInfo h3 {
+  @apply text-xl font-bold;
+}
+
+.projectCard {
+  @apply bg-white rounded-lg shadow-md p-4;
+  @apply flex flex-col gap-2;
+  @apply transition duration-300 ease-in-out hover:shadow-lg;
+}
+
+.projectInfo {
+  @apply flex flex-col gap-2;
+}
+
+.projectInfo h3 {
+  @apply text-xl font-bold;
+}
+
+.projectLocation {
+  @apply flex flex-col gap-2;
+}
+
+.projectLocation p {
+  @apply text-gray-600;
+}
+
+.userCard {
+  @apply bg-white rounded-lg shadow-md p-4;
+  @apply flex flex-col gap-2;
+  @apply transition duration-300 ease-in-out hover:shadow-lg;
+}
+
+.userCard h3 {
+  @apply text-xl font-bold;
+}
+
+.userCard p {
+  @apply text-gray-600;
+}
+
+.profilePicture {
+  @apply rounded-full w-24 h-24 object-cover;
+}
+
+.forumPostCard {
+  @apply bg-white rounded-lg shadow-md p-4;
+  @apply flex flex-col gap-2;
+  @apply transition duration-300 ease-in-out hover:shadow-lg;
+}
+
+.forumPostCard h3 {
+  @apply text-xl font-bold;
+}
+
+.forumPostCard p {
+  @apply text-gray-600;
+}
+
+.resourceItem {
+  @apply bg-white rounded-lg shadow-md p-4;
+  @apply flex flex-col gap-2;
+  @apply transition duration-300 ease-in-out hover:shadow-lg;
+}
+
+.resourceItem h2 {
+  @apply text-xl font-bold;
+}
+
+.resourceItem p {
+  @apply text-gray-600;
+}
+
+.opportunityItem {
+  @apply bg-white rounded-lg shadow-md p-4;
+  @apply flex flex-col gap-2;
+  @apply transition duration-300 ease-in-out hover:shadow-lg;
+}
+
+.opportunityItem h2 {
+  @apply text-xl font-bold;
+}
+
+.opportunityItem p {
+  @apply text-gray-600;
+}
+
+.contentItem {
+  @apply bg-white rounded-lg shadow-md p-4;
+  @apply flex flex-col gap-2;
+  @apply transition duration-300 ease-in-out hover:shadow-lg;
+}
+
+.contentItem h2 {
+  @apply text-xl font-bold;
+}
+
+.contentItem p {
+  @apply text-gray-600;
+}
+
+/ Responsive Design /
+
+@media screen and (max-width: 768px) {
+  .plantCard,
+  .projectCard,
+  .userCard,
+  .forumPostCard,
+  .resourceItem,
+  .opportunityItem,
+  .contentItem {
+    @apply grid grid-cols-1;
+  }
+}
