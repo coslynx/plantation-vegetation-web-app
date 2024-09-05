@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "Plantation for a Greener Future",
+    "description": "A community-driven initiative to plant trees in urban areas to improve air quality and create green spaces.",
+    "link": "https://www.example.com/plantation-for-a-greener-future",
+    "organization": "Green City Initiative",
+    "amount": 100000,
+    "currency": "USD",
+    "status": "Active",
+    "startDate": "2023-10-27",
+    "endDate": "2024-04-30",
+    "categories": [
+      "Reforestation",
+      "Urban Greening",
+      "Community Development"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mangrove Restoration Project",
+    "description": "A project to restore mangrove forests in coastal areas to protect biodiversity and mitigate climate change.",
+    "link": "https://www.example.com/mangrove-restoration-project",
+    "organization": "Coastal Conservation Alliance",
+    "amount": 500000,
+    "currency": "USD",
+    "status": "Active",
+    "startDate": "2023-11-15",
+    "endDate": "2024-12-31",
+    "categories": [
+      "Coastal Restoration",
+      "Biodiversity Conservation",
+      "Climate Change Mitigation"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Schoolyard Tree Planting Program",
+    "description": "A program to plant trees in schoolyards to provide shade, improve air quality, and educate students about the environment.",
+    "link": "https://www.example.com/schoolyard-tree-planting-program",
+    "organization": "Trees for Education",
+    "amount": 25000,
+    "currency": "USD",
+    "status": "Active",
+    "startDate": "2023-12-01",
+    "endDate": "2024-05-31",
+    "categories": [
+      "Environmental Education",
+      "School Sustainability",
+      "Community Engagement"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Forest Conservation Fund",
+    "description": "A fund to protect and conserve forests around the world, supporting indigenous communities and promoting sustainable forest management.",
+    "link": "https://www.example.com/forest-conservation-fund",
+    "organization": "Rainforest Alliance",
+    "amount": 1000000,
+    "currency": "USD",
+    "status": "Active",
+    "startDate": "2023-09-01",
+    "endDate": "2024-08-31",
+    "categories": [
+      "Forest Conservation",
+      "Biodiversity Protection",
+      "Sustainable Development"
+    ]
+  }
+]
