@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Help! My seedlings aren't growing!",
+    "content": "I've been trying to grow some tomato seedlings indoors, but they're just not thriving. I've given them plenty of light and water, but they seem to be wilting and not growing much. Any advice?",
+    "authorId": 1,
+    "createdAt": "2023-11-15T10:00:00.000Z",
+    "updatedAt": "2023-11-15T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Best trees for carbon sequestration in my region?",
+    "content": "I'm interested in planting trees to help fight climate change. What are some of the best tree species for carbon sequestration in my region (Southern California)?",
+    "authorId": 2,
+    "createdAt": "2023-11-16T14:30:00.000Z",
+    "updatedAt": "2023-11-16T14:30:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Urban forestry project planning tips",
+    "content": "Our community group is planning a tree planting project in our local park. What are some important considerations for urban forestry projects, especially when dealing with limited space and existing infrastructure?",
+    "authorId": 3,
+    "createdAt": "2023-11-17T09:15:00.000Z",
+    "updatedAt": "2023-11-17T09:15:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Finding funding for reforestation projects",
+    "content": "I'm working on a reforestation project in a region affected by deforestation. What are some good resources for finding grants and funding for such initiatives?",
+    "authorId": 4,
+    "createdAt": "2023-11-18T16:45:00.000Z",
+    "updatedAt": "2023-11-18T16:45:00.000Z"
+  }
+]
