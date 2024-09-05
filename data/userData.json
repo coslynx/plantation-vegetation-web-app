@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "username": "JohnDoe",
+    "email": "john.doe@example.com",
+    "password": "$2b$10$fJ9Qh61gW4z.t75/38t.9.O.U2oG1p7z91R4s19s2.8D.k.k",
+    "bio": "Passionate about creating a greener future. Interested in urban reforestation and community gardening.",
+    "profilePicture": "https://example.com/profile-picture.jpg",
+    "projects": [
+      1,
+      3
+    ],
+    "forumPosts": [
+      1
+    ],
+    "createdAt": "2023-11-15T10:00:00.000Z",
+    "updatedAt": "2023-11-15T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "username": "JaneSmith",
+    "email": "jane.smith@example.com",
+    "password": "$2b$10$fJ9Qh61gW4z.t75/38t.9.O.U2oG1p7z91R4s19s2.8D.k.k",
+    "bio": "Environmental advocate working on coastal restoration projects.",
+    "profilePicture": "https://example.com/profile-picture.jpg",
+    "projects": [
+      2
+    ],
+    "forumPosts": [
+      2
+    ],
+    "createdAt": "2023-11-16T14:30:00.000Z",
+    "updatedAt": "2023-11-16T14:30:00.000Z"
+  },
+  {
+    "id": 3,
+    "username": "CommunityGroup",
+    "email": "communitygroup@example.com",
+    "password": "$2b$10$fJ9Qh61gW4z.t75/38t.9.O.U2oG1p7z91R4s19s2.8D.k.k",
+    "bio": "Local community group dedicated to urban forestry initiatives.",
+    "profilePicture": "https://example.com/profile-picture.jpg",
+    "projects": [
+      3
+    ],
+    "forumPosts": [
+      3
+    ],
+    "createdAt": "2023-11-17T09:15:00.000Z",
+    "updatedAt": "2023-11-17T09:15:00.000Z"
+  },
+  {
+    "id": 4,
+    "username": "EcoWarrior",
+    "email": "ecowarrior@example.com",
+    "password": "$2b$10$fJ9Qh61gW4z.t75/38t.9.O.U2oG1p7z91R4s19s2.8D.k.k",
+    "bio": "Working on reforestation projects in areas affected by deforestation.",
+    "profilePicture": "https://example.com/profile-picture.jpg",
+    "projects": [
+      4
+    ],
+    "forumPosts": [
+      4
+    ],
+    "createdAt": "2023-11-18T16:45:00.000Z",
+    "updatedAt": "2023-11-18T16:45:00.000Z"
+  }
+]
