@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Oak Tree",
+    "scientificName": "Quercus robur",
+    "family": "Fagaceae",
+    "nativeRegion": "Europe",
+    "image": "https://example.com/oak-tree.jpg",
+    "description": "A large, deciduous tree known for its strong wood and impressive size.",
+    "plantingTechniques": "Oak trees prefer well-drained soil and full sun exposure. They can be planted in spring or fall. ",
+    "careRequirements": "Oak trees require regular watering, especially during dry periods. They can be pruned to shape and remove dead branches.",
+    "environmentalBenefits": "Oak trees provide shade, improve air quality, and offer habitat for wildlife.",
+    "regionalSuitability": "Oak trees are suitable for planting in temperate climates with cool, moist summers and mild winters."
+  },
+  {
+    "id": 2,
+    "name": "Red Mangrove",
+    "scientificName": "Rhizophora mangle",
+    "family": "Rhizophoraceae",
+    "nativeRegion": "Tropical Americas",
+    "image": "https://example.com/red-mangrove.jpg",
+    "description": "A salt-tolerant tree that thrives in coastal areas and plays a vital role in coastal ecosystems.",
+    "plantingTechniques": "Red mangroves require a saltwater environment and can be planted in the intertidal zone.",
+    "careRequirements": "Red mangroves are relatively low-maintenance and can tolerate harsh conditions. They are known for their unique root systems that help stabilize shorelines.",
+    "environmentalBenefits": "Red mangroves provide habitat for fish and other marine life, protect shorelines from erosion, and sequester carbon.",
+    "regionalSuitability": "Red mangroves are suitable for planting in tropical and subtropical coastal areas."
+  },
+  {
+    "id": 3,
+    "name": "Fruit Tree",
+    "scientificName": "Malus domestica",
+    "family": "Rosaceae",
+    "nativeRegion": "Central Asia",
+    "image": "https://example.com/fruit-tree.jpg",
+    "description": "A deciduous tree that produces edible fruit, offering both food and environmental benefits.",
+    "plantingTechniques": "Fruit trees prefer well-drained soil and full sun exposure. They can be planted in spring or fall.",
+    "careRequirements": "Fruit trees require regular watering, fertilization, and pruning to ensure a healthy crop. They are susceptible to pests and diseases.",
+    "environmentalBenefits": "Fruit trees provide shade, improve air quality, and offer a source of food for humans and wildlife.",
+    "regionalSuitability": "Fruit trees are suitable for planting in temperate climates with sufficient sunlight and a growing season."
+  },
+  {
+    "id": 4,
+    "name": "Amazonian Mahogany",
+    "scientificName": "Swietenia macrophylla",
+    "family": "Meliaceae",
+    "nativeRegion": "Amazon Rainforest",
+    "image": "https://example.com/amazonian-mahogany.jpg",
+    "description": "A large, tropical tree that produces valuable hardwood and is crucial for rainforest ecosystems.",
+    "plantingTechniques": "Amazonian mahogany requires a tropical climate with high humidity and rainfall. It can be planted in well-drained soil.",
+    "careRequirements": "Amazonian mahogany needs regular watering and occasional fertilization. It is susceptible to pests and diseases.",
+    "environmentalBenefits": "Amazonian mahogany is a keystone species in the Amazon rainforest, providing habitat for many animals and contributing to biodiversity.",
+    "regionalSuitability": "Amazonian mahogany is suitable for planting in tropical regions with high rainfall and humidity."
+  }
+]
