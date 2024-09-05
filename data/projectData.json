@@ -1,0 +1,144 @@
+[
+  {
+    "id": 1,
+    "name": "Urban Greening Project",
+    "description": "Planting trees in a neglected urban park to improve air quality, create green spaces, and enhance the local ecosystem.",
+    "location": "40.7128, -74.0060",
+    "plantSpecies": "Oak Tree",
+    "teamMembers": [
+      1,
+      3
+    ],
+    "startDate": "2023-10-27",
+    "endDate": "2024-04-30",
+    "status": "Active",
+    "progress": 60,
+    "fundingStatus": "Funded",
+    "fundingSource": "Green City Initiative",
+    "fundingAmount": 100000,
+    "updates": [
+      {
+        "date": "2023-11-15",
+        "content": "Successfully planted 50 oak trees in the park. Volunteers are working hard to maintain the saplings and ensure their survival."
+      },
+      {
+        "date": "2023-12-01",
+        "content": "Progress update: 75% of the planned trees have been planted. The park is starting to look greener already!"
+      }
+    ],
+    "images": [
+      "https://example.com/urban-greening-project-1.jpg",
+      "https://example.com/urban-greening-project-2.jpg"
+    ],
+    "resources": [
+      1,
+      2
+    ],
+    "createdAt": "2023-10-27T10:00:00.000Z",
+    "updatedAt": "2023-12-01T14:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Mangrove Restoration Initiative",
+    "description": "Restoring mangrove forests along the coastline to protect biodiversity, combat coastal erosion, and mitigate climate change.",
+    "location": "-23.5505, -46.6333",
+    "plantSpecies": "Red Mangrove",
+    "teamMembers": [
+      2
+    ],
+    "startDate": "2023-11-15",
+    "endDate": "2024-12-31",
+    "status": "Active",
+    "progress": 40,
+    "fundingStatus": "Funded",
+    "fundingSource": "Coastal Conservation Alliance",
+    "fundingAmount": 500000,
+    "updates": [
+      {
+        "date": "2023-11-22",
+        "content": "First phase of mangrove planting completed! We've planted 2000 red mangroves in the designated area."
+      }
+    ],
+    "images": [
+      "https://example.com/mangrove-restoration-project-1.jpg",
+      "https://example.com/mangrove-restoration-project-2.jpg"
+    ],
+    "resources": [
+      3,
+      4
+    ],
+    "createdAt": "2023-11-15T14:30:00.000Z",
+    "updatedAt": "2023-11-22T16:45:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Schoolyard Tree Planting Program",
+    "description": "Planting trees in schoolyards to provide shade, improve air quality, and educate students about the environment.",
+    "location": "34.0522, -118.2437",
+    "plantSpecies": "Fruit Tree",
+    "teamMembers": [
+      1,
+      3
+    ],
+    "startDate": "2023-12-01",
+    "endDate": "2024-05-31",
+    "status": "Active",
+    "progress": 20,
+    "fundingStatus": "Pending",
+    "fundingSource": "Trees for Education",
+    "fundingAmount": 25000,
+    "updates": [
+      {
+        "date": "2023-12-10",
+        "content": "We've started the planning phase! Students are excited to learn about different tree species and their benefits."
+      }
+    ],
+    "images": [
+      "https://example.com/schoolyard-tree-planting-program-1.jpg",
+      "https://example.com/schoolyard-tree-planting-program-2.jpg"
+    ],
+    "resources": [
+      5,
+      6
+    ],
+    "createdAt": "2023-12-01T09:15:00.000Z",
+    "updatedAt": "2023-12-10T10:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Reforestation Project in the Amazon",
+    "description": "Restoring degraded rainforest areas in the Amazon to combat deforestation and protect biodiversity.",
+    "location": "-3.0772, -60.0318",
+    "plantSpecies": "Amazonian Mahogany",
+    "teamMembers": [
+      4
+    ],
+    "startDate": "2023-09-01",
+    "endDate": "2024-08-31",
+    "status": "Active",
+    "progress": 75,
+    "fundingStatus": "Funded",
+    "fundingSource": "Rainforest Alliance",
+    "fundingAmount": 1000000,
+    "updates": [
+      {
+        "date": "2023-10-15",
+        "content": "Significant progress made! We've successfully replanted 50 hectares of rainforest with native tree species."
+      },
+      {
+        "date": "2023-12-20",
+        "content": "The project is on track to meet its targets. We are working closely with local communities to ensure the long-term sustainability of the restored forest."
+      }
+    ],
+    "images": [
+      "https://example.com/amazon-reforestation-project-1.jpg",
+      "https://example.com/amazon-reforestation-project-2.jpg"
+    ],
+    "resources": [
+      7,
+      8
+    ],
+    "createdAt": "2023-09-01T16:45:00.000Z",
+    "updatedAt": "2023-12-20T14:30:00.000Z"
+  }
+]
