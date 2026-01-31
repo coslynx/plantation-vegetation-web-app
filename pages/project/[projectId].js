@@ -2,11 +2,11 @@
 
 import React, { useState, useEffect } from "react";
 import { useQuery } from "react-query";
-import { fetchProject } from "../services/projectService";
-import { usePlantContext } from "../contexts/PlantContext";
-import { useUserContext } from "../contexts/UserContext";
-import Map from "./Map";
-import styles from "../styles/ProjectDetails.module.css";
+import { fetchProject } from "../../services/projectService";
+import { usePlantContext } from "../../contexts/PlantContext";
+import { useUserContext } from "../../contexts/UserContext";
+import Map from "../../components/Map";
+import styles from "../../styles/ProjectDetails.module.css";
 
 const ProjectDetails = () => {
   const { plants } = usePlantContext();
