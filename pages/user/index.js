@@ -2,11 +2,11 @@
 
 import React, { useState, useEffect } from "react";
 import { useQuery } from "react-query";
-import { fetchUser } from "../services/userService";
-import { useUserContext } from "../contexts/UserContext";
-import ProjectCard from "./ProjectCard";
-import ForumPostCard from "./ForumPostCard";
-import styles from "../styles/UserProfile.module.css";
+import { fetchUser } from "../../services/userService";
+import { useUserContext } from "../../contexts/UserContext";
+import ProjectCard from "../../components/ProjectCard";
+import ForumPostCard from "../../components/ForumPostCard";
+import styles from "../../styles/UserProfile.module.css";
 
 const UserProfile = () => {
   const { users } = useUserContext();
