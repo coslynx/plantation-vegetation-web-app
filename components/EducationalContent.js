@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/EducationalContent.module.css';
-import { useQuery } from 'react-query';
+import { useQuery } from '@tanstack/react-query';
 import { fetchEducationalContent } from '../services/educationService';
 import { useAuthContext } from '../contexts/AuthContext';
 

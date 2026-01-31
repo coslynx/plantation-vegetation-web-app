@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/ResourceDirectory.module.css';
-import { useQuery } from 'react-query';
+import { useQuery } from '@tanstack/react-query';
 import { fetchResources } from '../services/resourceService';
 import { useAuthContext } from '../contexts/AuthContext';
 
