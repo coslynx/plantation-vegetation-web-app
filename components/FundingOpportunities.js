@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/FundingOpportunities.module.css';
-import { useQuery } from 'react-query';
+import { useQuery } from '@tanstack/react-query';
 import { fetchFundingOpportunities } from '../services/fundingService';
 import { useAuthContext } from '../contexts/AuthContext';
 

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 import { fetchPlants } from "../services/plantService";
 import PlantCard from "./PlantCard";
 import styles from "../styles/PlantDatabase.module.css";

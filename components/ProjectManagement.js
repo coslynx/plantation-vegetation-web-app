@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/ProjectManagement.module.css';
-import { useQuery, useMutation } from 'react-query';
+import { useQuery, useMutation } from '@tanstack/react-query';
 import { fetchProjects, createProject, updateProject, deleteProject } from '../services/projectService';
 import { useAuth } from '../contexts/AuthContext';
 import { usePlantContext } from '../contexts/PlantContext';

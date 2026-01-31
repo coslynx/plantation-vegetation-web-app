@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { useQuery } from "react-query";
+import { useQuery } from "@tanstack/react-query";
 import { fetchUsers } from "../services/userService";
 import UserCard from "./UserCard";
 import styles from "../styles/UserList.module.css";

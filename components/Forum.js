@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useQuery, useMutation } from 'react-query';
+import { useQuery, useMutation } from '@tanstack/react-query';
 import { fetchForumPosts, createForumPost, updateForumPost, deleteForumPost } from '../services/forumService';
 import { useAuth } from '../contexts/AuthContext';
 import { useUserContext } from '../contexts/UserContext';

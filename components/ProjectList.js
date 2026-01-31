@@ -1,5 +1,5 @@
 import React from 'react';
-import { useQuery } from 'react-query';
+import { useQuery } from '@tanstack/react-query';
 import { fetchProjects } from '../services/projectService';
 import ProjectCard from './ProjectCard';
 import styles from '../styles/ProjectList.module.css';
